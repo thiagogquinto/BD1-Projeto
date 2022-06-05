@@ -115,7 +115,6 @@ CREATE TABLE PRODUTO(
     categoria ENUM('Bebida', 'Comida'),
     tempo_preparo TIME,
     preco REAL,
-    valor REAL, 
     PRIMARY KEY(nome)
 );
 
