@@ -35,6 +35,7 @@ CREATE TABLE COZINHEIRO(
     salario_hora REAL,
     especialidade VARCHAR(100),
     cpf CHAR(9),
+    PRIMARY KEY(cpf),
     FOREIGN KEY(cpf) REFERENCES FUNCIONARIO(cpf) ON DELETE CASCADE
 );
 
@@ -43,6 +44,7 @@ CREATE TABLE GARCOM(
     id INTEGER,
     avaliacao ENUM('BOM', 'RUIM', 'REGULAR'),
     cpf CHAR(9),
+    PRIMARY KEY(cpf),
     FOREIGN KEY(cpf) REFERENCES FUNCIONARIO(cpf) ON DELETE CASCADE
 );
 
@@ -117,7 +119,7 @@ CREATE TABLE PRODUTO(
 	nome VARCHAR(100),
     categoria ENUM('Bebida', 'Comida'),
     tempo_preparo TIME,
-    valor REAL, 
+    preco REAL,
     PRIMARY KEY(nome)
 );
 
