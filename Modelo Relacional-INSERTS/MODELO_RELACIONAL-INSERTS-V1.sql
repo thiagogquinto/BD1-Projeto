@@ -1,7 +1,3 @@
--- Aluno: Thiago Gariani Quinto
-
--- RA: 2388898
-
 --  GitHub: https://github.com/thiagogquinto03/BD1-Projeto
 
 DROP TABLE IF EXISTS COZINHEIRO_PRODUTO;
