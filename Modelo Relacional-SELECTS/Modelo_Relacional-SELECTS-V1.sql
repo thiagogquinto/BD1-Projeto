@@ -1,7 +1,3 @@
---  GitHub: https://github.com/thiagogquinto03/BD1-Projeto
-
--- Os selects estão na linha 411
-
 DROP TABLE IF EXISTS COZINHEIRO_PRODUTO;
 DROP TABLE IF EXISTS PEDIDO_PRODUTO;
 DROP TABLE IF EXISTS PRODUTO_INGREDIENTE;
